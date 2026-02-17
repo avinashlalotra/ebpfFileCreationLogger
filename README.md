@@ -17,7 +17,7 @@ then in for each example run
     make all
     make load
     make showlog
-``
+```
 
 Do not forget to unload : 
 ```bash
