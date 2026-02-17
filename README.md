@@ -35,5 +35,6 @@ then modify your boot args and add   " lsm=..,..,bpf "
 # Note
 This is using `bpftool` to load and attach the ebpf programs.
 
+The function `bpf_printk()` will write to `/sys/kernel/debug/tracing/trace_pipe`
 
 
